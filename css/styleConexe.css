@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url("../img/1Big.png"), url("../img/2Big.png");
+    background-position:top center,bottom center; /* this positions the second image */
+    background-repeat:no-repeat; 
+    font-family: 'Comfortaa', cursive;
+}
+header {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.container {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+#game {
+    background-color: black;
+    display: block;
+    width: 1280px;
+    height: 720px;
+    margin: 70px auto 500px auto;
+    
+}
+#main-title {
+    text-align: center;
+    word-spacing: 10%;
+    line-height: 120%;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-family: 'Press Start 2P', cursive;
+}
+.main-text {
+    color: white;
+    text-align: center;
+}
+.main-text .blue {
+    color: aqua;
+}
+article {
+    font-size: 20px;
+}
+.wrapper-boxes {
+    display: flex;
+    margin: 40px 0 40px 0;
+    justify-content:space-around;
+}
+.wrapper-boxes .box {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+.wrapper-boxes > .box > .icon {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+}
+.wrapper-boxes > .box > h3 {
+    color: white;
+}

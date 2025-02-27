@@ -1,0 +1,233 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+@font-face{
+	font-family: JuraBook;
+	Src: url("../fonts/JuraBook.ttf");
+}
+
+@font-face{
+	font-family: JuraDemiBold;
+	Src: url("../fonts/JuraDemiBold.ttf");
+}
+
+@font-face{
+	font-family: Pixellari;
+	Src: url("../fonts/Pixellari.ttf");
+}
+
+#site{
+    display: grid;
+    gap: 0rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 30rem;
+    grid-template-rows: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.Superior{
+    background-image:url("../img/1Rev.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 120vh;
+}
+
+#LogoConexe{
+    width: 260px;
+    height: 260px;
+    background-image: url("../img/LogoConexeSmall.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    order: 1;
+}
+    
+#UnityGame{
+    display: grid;
+    width: 960px;
+    height: 550px;
+    margin: auto auto 250px;
+    justify-content: center;
+    order: 2;
+}
+
+#juego{
+    width: 960px;
+    height: 550px;
+}
+
+#Relleno{
+    width: 260px;
+    height: 260px;
+    order: 3;
+}
+
+.Inferior{
+    background-image:url("../img/2Rev.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 120vh;
+}
+
+#RellenoTitulo1{
+    width: 1px;
+    height: 1px;
+}
+
+#RellenoTitulo2{
+    width: 1px;
+    height: 1px;
+}
+
+#Titulo{
+    margin: 100px auto 20px;
+}
+
+.main-text {
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.main-text2{
+    margin: 50px auto auto;
+    color: white;
+    text-align: center;
+}
+
+#main-title {
+    text-align: center;
+    word-spacing: 10%;
+    line-height: 120%;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: Pixellari;
+}
+
+.main-text .blue {
+    font-family: JuraDemiBold;
+    font-size: 50px;
+    font-style: bold;
+    color: #86E6FF;
+}
+
+.main-text .blue2 {
+    font-family: Pixellari;
+    font-size: 50px;
+    font-style: bold;
+    color: #86E6FF;
+}
+
+.main-text2 .blue {
+    font-family: JuraDemiBold;
+    font-size: 50px;
+    font-style: bold;
+    color: #86E6FF;
+}
+
+article {
+    font-size: 36.5px;
+    font-family: JuraBook;
+}
+
+.wrapper-boxes {
+    display: grid;
+    justify-items: center;
+    margin: auto auto 50px;
+    grid-template-columns: 15% 23.33% 23.33% 23.33% 15%;
+    font-family: JuraBook;
+}
+
+.wrapper-boxes .box {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.wrapper-boxes .boxRellenar{
+    width: 1px;
+    height: auto;
+}
+
+.wrapper-boxes > .box > .icon1 {
+    background-image:url("../img/Icono1.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.wrapper-boxes > .box > .icon2 {
+    background-image:url("../img/Icono2.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.wrapper-boxes > .box > .icon3 {
+    background-image:url("../img/Icono3.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.wrapper-boxes > .box > h3 {
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+#Contacto{
+    display: flex;
+    margin: 40px;
+    font-family: JuraBook;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Contactanos{
+    font-size: 25px;
+    color: white;
+}
+
+#IconoWhatssap{
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/IconoWats.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#IconoCorreo{
+    width: 40px;
+    height: 30px;
+    background-image: url("../img/IconoGmail.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#footer{
+    display: grid;
+    height: 100vh;
+    background-image: url("../img/footer.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
